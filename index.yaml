@@ -3,7 +3,7 @@ entries:
   jupyter:
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-10T15:48:33.826876813Z
+    created: 2019-04-10T17:48:21.74956386Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: adf68116c1e7f3fb801f084a788d88046f0bdd7e2c1e429f56506288335076b1
     keywords:
@@ -18,4 +18,4 @@ entries:
     urls:
     - jupyter/jupyter-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-10T15:48:33.826383223Z
+generated: 2019-04-10T17:48:21.749091969Z
