@@ -3,7 +3,7 @@ entries:
   jupyter:
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-10T17:48:21.74956386Z
+    created: 2019-04-12T13:23:15.858355262Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: adf68116c1e7f3fb801f084a788d88046f0bdd7e2c1e429f56506288335076b1
     keywords:
@@ -18,4 +18,38 @@ entries:
     urls:
     - jupyter/jupyter-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-10T17:48:21.749091969Z
+  jupyter-sparkmagic:
+  - apiVersion: v1
+    appVersion: 4.4.0
+    created: 2019-04-12T13:23:15.858739427Z
+    description: Jupyter Notebook with sparkmagic for Livy integration
+    digest: 69a7bb4e17705950fd35e703a981e4110ca6d51d273584648bd5c5625a4e40d7
+    keywords:
+    - jupyter
+    - spark
+    - livy
+    - sparkmagic
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: jupyter-sparkmagic
+    urls:
+    - jupyter-sparkmagic/jupyter-sparkmagic-0.1.0.tgz
+    version: 0.1.0
+  livy:
+  - apiVersion: v1
+    appVersion: v0.7.0-incubating
+    created: 2019-04-12T13:23:15.859101353Z
+    description: Apache Livy on Kubernetes
+    digest: a16c30a1a5b74fd9275edf58e4c9df02791b4087ba717fc7e81c6b38e27dfbb3
+    keywords:
+    - livy
+    - spark
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: livy
+    urls:
+    - livy/livy-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-04-12T13:23:15.857912302Z
