@@ -1,9 +1,40 @@
 apiVersion: v1
 entries:
+  cluster-base:
+  - apiVersion: v1
+    created: 2019-04-19T13:10:13.884040781Z
+    description: Base configuration for Kubernetes cluster
+    digest: c34fa2714f14a889c012e7299af6a736f6c3e010d311da7eec009a52d3286abf
+    keywords:
+    - base
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: cluster-base
+    urls:
+    - cluster-base/cluster-base-1.0.0.tgz
+    version: 1.0.0
   jupyter-sparkmagic:
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-18T14:37:40.018338929Z
+    created: 2019-04-19T13:10:13.885654544Z
+    description: Jupyter Notebook with sparkmagic for Livy integration
+    digest: a6d9809e5d896849a6a64b94cf91844d8b71da6b6b00c5b7056c16ccf6ec4a52
+    keywords:
+    - jupyter
+    - spark
+    - livy
+    - sparkmagic
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: jupyter-sparkmagic
+    urls:
+    - jupyter-sparkmagic/jupyter-sparkmagic-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 4.4.0
+    created: 2019-04-19T13:10:13.885113739Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 5b532a98112dadca958dbe09d4a895ed3527117ae895e9668499e70eda63b6c9
     keywords:
@@ -20,7 +51,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-18T14:37:40.017922401Z
+    created: 2019-04-19T13:10:13.884609568Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 69a7bb4e17705950fd35e703a981e4110ca6d51d273584648bd5c5625a4e40d7
     keywords:
@@ -38,7 +69,26 @@ entries:
   livy:
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-18T14:37:40.019164269Z
+    created: 2019-04-19T13:10:13.887387997Z
+    description: Apache Livy on Kubernetes
+    digest: a22d72495b777617821184541b39ddde54b0a7e099591310d9f6e551133c0577
+    home: https://livy.incubator.apache.org/
+    icon: https://livy.incubator.apache.org/assets/themes/apache/img/logo.png
+    keywords:
+    - livy
+    - spark
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: livy
+    sources:
+    - https://github.com/jahstreet/incubator-livy/tree/v0.6.0-incubating-kubernetes-support
+    urls:
+    - livy/livy-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: v0.7.0-incubating
+    created: 2019-04-19T13:10:13.886761024Z
     description: Apache Livy on Kubernetes
     digest: cd17d3484d404741b623b8952ecd814cf00873e2d0a7f07570da17b437986ce2
     home: https://livy.incubator.apache.org/
@@ -57,7 +107,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-18T14:37:40.018722292Z
+    created: 2019-04-19T13:10:13.886156716Z
     description: Apache Livy on Kubernetes
     digest: a16c30a1a5b74fd9275edf58e4c9df02791b4087ba717fc7e81c6b38e27dfbb3
     keywords:
@@ -73,7 +123,24 @@ entries:
   spark-cluster:
   - apiVersion: v1
     appVersion: 2.4.1
-    created: 2019-04-18T14:37:40.020927575Z
+    created: 2019-04-19T13:10:13.906159691Z
+    description: A Helm chart for Spark cluster with Livy atop Kubernetes
+    digest: 98257642b86ff42c87fe117b2164570b6461454e5fab5ed73489fac5906cf8f5
+    keywords:
+    - livy
+    - spark
+    - jupyter
+    - history-server
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: spark-cluster
+    urls:
+    - spark-cluster/spark-cluster-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 2.4.1
+    created: 2019-04-19T13:10:13.902531001Z
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: b9af42276e354dad025d12688bea1a34ab1bfc35cfa01b5453658845d84c2c03
     keywords:
@@ -88,4 +155,4 @@ entries:
     urls:
     - spark-cluster/spark-cluster-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-18T14:37:40.017330617Z
+generated: 2019-04-19T13:10:13.880821856Z
