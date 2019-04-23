@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   cluster-base:
   - apiVersion: v1
-    created: 2019-04-19T13:20:11.915133944Z
+    created: 2019-04-23T12:07:40.170165062Z
     description: Base configuration for Kubernetes cluster
-    digest: c34fa2714f14a889c012e7299af6a736f6c3e010d311da7eec009a52d3286abf
+    digest: b3eb6c4d22ea610eae3b318ccade386512b6dd4408ab73a824a6f0e2501d2f99
     keywords:
     - base
     maintainers:
@@ -17,9 +17,9 @@ entries:
   jupyter-sparkmagic:
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-19T13:20:11.916718756Z
+    created: 2019-04-23T12:07:40.171226186Z
     description: Jupyter Notebook with sparkmagic for Livy integration
-    digest: a6d9809e5d896849a6a64b94cf91844d8b71da6b6b00c5b7056c16ccf6ec4a52
+    digest: c75e067610cf8df35a3aa16f0b723fd88f56a1f384c38a807702b4fb6935bcf2
     keywords:
     - jupyter
     - spark
@@ -34,7 +34,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-19T13:20:11.916198683Z
+    created: 2019-04-23T12:07:40.170878018Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 5b532a98112dadca958dbe09d4a895ed3527117ae895e9668499e70eda63b6c9
     keywords:
@@ -51,7 +51,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-19T13:20:11.915669334Z
+    created: 2019-04-23T12:07:40.170530871Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 69a7bb4e17705950fd35e703a981e4110ca6d51d273584648bd5c5625a4e40d7
     keywords:
@@ -69,9 +69,9 @@ entries:
   livy:
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-19T13:20:11.918380127Z
+    created: 2019-04-23T12:07:40.172516937Z
     description: Apache Livy on Kubernetes
-    digest: a22d72495b777617821184541b39ddde54b0a7e099591310d9f6e551133c0577
+    digest: b4227fd2a99d43effe580e371d1ac690529d2de06d037f74c8d63fd045b949c4
     home: https://livy.incubator.apache.org/
     icon: https://livy.incubator.apache.org/assets/themes/apache/img/logo.png
     keywords:
@@ -88,7 +88,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-19T13:20:11.917800384Z
+    created: 2019-04-23T12:07:40.172034043Z
     description: Apache Livy on Kubernetes
     digest: cd17d3484d404741b623b8952ecd814cf00873e2d0a7f07570da17b437986ce2
     home: https://livy.incubator.apache.org/
@@ -107,7 +107,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-19T13:20:11.917210381Z
+    created: 2019-04-23T12:07:40.171585709Z
     description: Apache Livy on Kubernetes
     digest: a16c30a1a5b74fd9275edf58e4c9df02791b4087ba717fc7e81c6b38e27dfbb3
     keywords:
@@ -123,9 +123,9 @@ entries:
   spark-cluster:
   - apiVersion: v1
     appVersion: 2.4.1
-    created: 2019-04-19T13:20:11.923427641Z
+    created: 2019-04-23T12:07:40.177247888Z
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
-    digest: bfb0f73eb929afc390bcb764056d646efc518c1f2d841ae583265388c257a481
+    digest: 6a5a78930c7c60868177637f1e34cad354c1ddb1e96b6ccd3749ec73a32e69e2
     keywords:
     - livy
     - spark
@@ -140,7 +140,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.4.1
-    created: 2019-04-19T13:20:11.920863199Z
+    created: 2019-04-23T12:07:40.174448859Z
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: b9af42276e354dad025d12688bea1a34ab1bfc35cfa01b5453658845d84c2c03
     keywords:
@@ -155,4 +155,26 @@ entries:
     urls:
     - spark-cluster/spark-cluster-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-19T13:20:11.912093659Z
+  spark-monitoring:
+  - apiVersion: v1
+    appVersion: 0.29.0
+    created: 2019-04-23T12:07:40.18641165Z
+    description: Cluster monitoring chart with Prometheus Operator and Prometheus
+      Pushgateway
+    digest: 3e9cca284f097b298b8cc4a7239710a226e63768250b9dc10499b4a255d3879c
+    keywords:
+    - monitoring
+    - prometheus-operator
+    - prometheus
+    - grafana
+    - alertmanager
+    - pushgateway
+    - loki
+    maintainers:
+    - email: aliaksandr_sasnouskikh@epam.com
+      name: Aliaksandr Sasnouskikh
+    name: spark-monitoring
+    urls:
+    - spark-monitoring/spark-monitoring-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-04-23T12:07:40.168057289Z
