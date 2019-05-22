@@ -2,8 +2,25 @@ apiVersion: v1
 entries:
   azure-keyvault-secret-reloader:
   - apiVersion: v1
+    appVersion: 2.0.61
+    created: 2019-05-22T12:43:17.019440416Z
+    description: Azure KeyVault secret reloader for Nginx Ingress Controller
+    digest: 4175f5c93144ed0ee0563a4026abc333ee595d80f683809338b95bc5cf885aeb
+    keywords:
+    - nginx
+    - ingress
+    - keyvault
+    - auth
+    maintainers:
+    - email: aliaksandr_sasnouskikh@epam.com
+      name: Aliaksandr Sasnouskikh
+    name: azure-keyvault-secret-reloader
+    urls:
+    - azure-keyvault-secret-reloader/azure-keyvault-secret-reloader-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-04-29T17:25:41.994246127Z
+    created: 2019-05-22T12:43:17.01889283Z
     description: A Helm chart for Kubernetes
     digest: 71360e3233daf3e64c34ccd17f6db569a42e2eda385a07b4e443ed960dad6416
     keywords:
@@ -19,7 +36,20 @@ entries:
     version: 0.1.0
   cluster-base:
   - apiVersion: v1
-    created: 2019-04-29T17:25:41.998512052Z
+    created: 2019-05-22T12:43:17.031286903Z
+    description: Base configuration for Kubernetes cluster
+    digest: a1d8dc40c87a9b26c349c153ac44894f132120f8624b52a58213e69f75ce1850
+    keywords:
+    - base
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: cluster-base
+    urls:
+    - cluster-base/cluster-base-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    created: 2019-05-22T12:43:17.02646811Z
     description: Base configuration for Kubernetes cluster
     digest: 5cab0cecc21fe2b663c59a516339e177712bf5f927ff9175e8de2ba5c1a84949
     keywords:
@@ -32,7 +62,7 @@ entries:
     - cluster-base/cluster-base-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: 2019-04-29T17:25:41.996151969Z
+    created: 2019-05-22T12:43:17.022653014Z
     description: Base configuration for Kubernetes cluster
     digest: 5efbdaa76f274fa74766457ea703333ff5f6ca4281c2d1dd26f0c87b91b38fb4
     keywords:
@@ -47,7 +77,24 @@ entries:
   jupyter-sparkmagic:
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-29T17:25:41.999687181Z
+    created: 2019-05-22T12:43:17.03346766Z
+    description: Jupyter Notebook with sparkmagic for Livy integration
+    digest: 4a93e4961427245832250256d0452bd632a5780cf3b85d166f4fea3cbb9901f7
+    keywords:
+    - jupyter
+    - spark
+    - livy
+    - sparkmagic
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: jupyter-sparkmagic
+    urls:
+    - jupyter-sparkmagic/jupyter-sparkmagic-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    appVersion: 4.4.0
+    created: 2019-05-22T12:43:17.032932096Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: be645ece75536254169c639660de6ee31c370e5080c204b7f2ead505085f2baf
     keywords:
@@ -64,7 +111,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-29T17:25:41.999297201Z
+    created: 2019-05-22T12:43:17.03238056Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 5b532a98112dadca958dbe09d4a895ed3527117ae895e9668499e70eda63b6c9
     keywords:
@@ -81,7 +128,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 4.4.0
-    created: 2019-04-29T17:25:41.998912801Z
+    created: 2019-05-22T12:43:17.031834591Z
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 69a7bb4e17705950fd35e703a981e4110ca6d51d273584648bd5c5625a4e40d7
     keywords:
@@ -99,7 +146,26 @@ entries:
   livy:
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-29T17:25:42.002528448Z
+    created: 2019-05-22T12:43:17.037176801Z
+    description: Apache Livy on Kubernetes
+    digest: e4b035ff1ee0e1465d22f76b59feceb07f51c4b1d756b074b3dc02a25b03f103
+    home: https://livy.incubator.apache.org/
+    icon: https://livy.incubator.apache.org/assets/themes/apache/img/logo.png
+    keywords:
+    - livy
+    - spark
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: livy
+    sources:
+    - https://github.com/jahstreet/incubator-livy/tree/v0.6.0-incubating-kubernetes-support
+    urls:
+    - livy/livy-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v1
+    appVersion: v0.7.0-incubating
+    created: 2019-05-22T12:43:17.03651851Z
     description: Apache Livy on Kubernetes
     digest: 09f6a3597da03f1ff617ff5f7c84c38cd4900e0095a6d991a649f50f3dca0a50
     home: https://livy.incubator.apache.org/
@@ -118,7 +184,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-29T17:25:42.002128777Z
+    created: 2019-05-22T12:43:17.035864782Z
     description: Apache Livy on Kubernetes
     digest: f407eb5740ca6a166d4ab6841549ba982a56c0f02de9a62c80e442e1e5b97c3f
     home: https://livy.incubator.apache.org/
@@ -137,7 +203,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-29T17:25:42.001700892Z
+    created: 2019-05-22T12:43:17.035253262Z
     description: Apache Livy on Kubernetes
     digest: b4227fd2a99d43effe580e371d1ac690529d2de06d037f74c8d63fd045b949c4
     home: https://livy.incubator.apache.org/
@@ -156,7 +222,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-29T17:25:42.001045301Z
+    created: 2019-05-22T12:43:17.034616503Z
     description: Apache Livy on Kubernetes
     digest: cd17d3484d404741b623b8952ecd814cf00873e2d0a7f07570da17b437986ce2
     home: https://livy.incubator.apache.org/
@@ -175,7 +241,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: 2019-04-29T17:25:42.000066061Z
+    created: 2019-05-22T12:43:17.033994831Z
     description: Apache Livy on Kubernetes
     digest: a16c30a1a5b74fd9275edf58e4c9df02791b4087ba717fc7e81c6b38e27dfbb3
     keywords:
@@ -191,7 +257,25 @@ entries:
   spark-cluster:
   - apiVersion: v1
     appVersion: 2.4.2
-    created: 2019-04-29T17:25:42.00932524Z
+    created: 2019-05-22T12:43:17.052175959Z
+    description: A Helm chart for Spark cluster with Livy atop Kubernetes
+    digest: e773bfabc4b7c85205a380e23902d27149287594a250b127559107fb3c42269d
+    keywords:
+    - livy
+    - spark
+    - jupyter
+    - jupyterhub
+    - history-server
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: Aliaksandr Sasnouskikh
+    name: spark-cluster
+    urls:
+    - spark-cluster/spark-cluster-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v1
+    appVersion: 2.4.2
+    created: 2019-05-22T12:43:17.048769829Z
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: f9af08dffcb5c79a380548f0958d83b9d32fa4523d94da4ba04433ca2cebc8fb
     keywords:
@@ -208,7 +292,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 2.4.2
-    created: 2019-04-29T17:25:42.007607381Z
+    created: 2019-05-22T12:43:17.045332219Z
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: c16b707a7c03468dc176ed40be142bc8706adef2dfa9219edef0cb4f7f507cbc
     keywords:
@@ -225,7 +309,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.4.1
-    created: 2019-04-29T17:25:42.005931193Z
+    created: 2019-05-22T12:43:17.042462375Z
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: 6a5a78930c7c60868177637f1e34cad354c1ddb1e96b6ccd3749ec73a32e69e2
     keywords:
@@ -242,7 +326,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.4.1
-    created: 2019-04-29T17:25:42.004183959Z
+    created: 2019-05-22T12:43:17.039665796Z
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: b9af42276e354dad025d12688bea1a34ab1bfc35cfa01b5453658845d84c2c03
     keywords:
@@ -260,7 +344,28 @@ entries:
   spark-monitoring:
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2019-04-29T17:25:42.018431091Z
+    created: 2019-05-22T12:43:17.069379901Z
+    description: Cluster monitoring chart with Prometheus Operator and Prometheus
+      Pushgateway
+    digest: 3652767379e9bba9aa02d69484c0f8fc2573d35c5d96273251e265f62efae7bc
+    keywords:
+    - monitoring
+    - prometheus-operator
+    - prometheus
+    - grafana
+    - alertmanager
+    - pushgateway
+    - loki
+    maintainers:
+    - email: aliaksandr_sasnouskikh@epam.com
+      name: Aliaksandr Sasnouskikh
+    name: spark-monitoring
+    urls:
+    - spark-monitoring/spark-monitoring-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: 0.29.0
+    created: 2019-05-22T12:43:17.060831491Z
     description: Cluster monitoring chart with Prometheus Operator and Prometheus
       Pushgateway
     digest: 9a3bc018a7646a05a518a3cb438d326abc5a484f1f9b2ff133c29208403a487a
@@ -279,4 +384,4 @@ entries:
     urls:
     - spark-monitoring/spark-monitoring-0.1.0.tgz
     version: 0.1.0
-generated: 2019-04-29T17:25:41.993813816Z
+generated: 2019-05-22T12:43:17.018186898Z
