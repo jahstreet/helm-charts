@@ -3,9 +3,9 @@ entries:
   azure-keyvault-secret-reloader:
   - apiVersion: v1
     appVersion: 2.0.61
-    created: "2020-10-05T19:54:43.604872508Z"
+    created: "2020-10-08T07:51:53.670575934Z"
     description: Azure KeyVault Secret reloader for Nginx Ingress Controller
-    digest: ef5ab639dd8a8b634f99f29038374b6c2bff1e00cc811a88550a0a594101c846
+    digest: 80923aeadd850929cfd4e79af7db3a8b612dd7591d18203c143dd9e8f679c37b
     keywords:
     - nginx
     - ingress
@@ -20,7 +20,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 2.0.61
-    created: "2020-10-05T19:54:43.60439679Z"
+    created: "2020-10-08T07:51:53.670241455Z"
     description: Azure KeyVault Secret reloader for Nginx Ingress Controller
     digest: d4cf5dd72727b8dac28caf8e848eab86fb042272a2f236508f0ffef55b93a5cd
     keywords:
@@ -37,7 +37,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: 2.0.61
-    created: "2020-10-05T19:54:43.60386799Z"
+    created: "2020-10-08T07:51:53.66988417Z"
     description: Azure KeyVault secret reloader for Nginx Ingress Controller
     digest: 4175f5c93144ed0ee0563a4026abc333ee595d80f683809338b95bc5cf885aeb
     keywords:
@@ -54,7 +54,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-05T19:54:43.602842743Z"
+    created: "2020-10-08T07:51:53.669570076Z"
     description: A Helm chart for Kubernetes
     digest: 71360e3233daf3e64c34ccd17f6db569a42e2eda385a07b4e443ed960dad6416
     keywords:
@@ -70,9 +70,9 @@ entries:
     version: 0.1.0
   cluster-base:
   - apiVersion: v1
-    created: "2020-10-05T19:54:43.628741258Z"
+    created: "2020-10-08T07:51:53.691915881Z"
     description: Base configuration for Kubernetes cluster
-    digest: 9f5f92c5f1d25ad448e27c56fe58ac9f3607cc50f3f2abfcebdb3770bc6ad3cb
+    digest: 9038a99c9785108ad28e240c33cbb4dd72d332079e6df02d3c4514d749f46a1a
     home: https://github.com/jahstreet/spark-on-kubernetes-helm/tree/master/charts/cluster-base
     keywords:
     - base
@@ -86,7 +86,7 @@ entries:
     - cluster-base/cluster-base-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
-    created: "2020-10-05T19:54:43.62069646Z"
+    created: "2020-10-08T07:51:53.682142918Z"
     description: Base configuration for Kubernetes cluster
     digest: 0341f0d8543d2db97fd890660b4c80801f042a6862cc6bc7f0bf27166c279e61
     keywords:
@@ -99,7 +99,7 @@ entries:
     - cluster-base/cluster-base-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
-    created: "2020-10-05T19:54:43.616227544Z"
+    created: "2020-10-08T07:51:53.678325881Z"
     description: Base configuration for Kubernetes cluster
     digest: a1d8dc40c87a9b26c349c153ac44894f132120f8624b52a58213e69f75ce1850
     keywords:
@@ -112,7 +112,7 @@ entries:
     - cluster-base/cluster-base-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v1
-    created: "2020-10-05T19:54:43.612119743Z"
+    created: "2020-10-08T07:51:53.67561729Z"
     description: Base configuration for Kubernetes cluster
     digest: 5cab0cecc21fe2b663c59a516339e177712bf5f927ff9175e8de2ba5c1a84949
     keywords:
@@ -125,7 +125,7 @@ entries:
     - cluster-base/cluster-base-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2020-10-05T19:54:43.608010975Z"
+    created: "2020-10-08T07:51:53.673239257Z"
     description: Base configuration for Kubernetes cluster
     digest: 5efbdaa76f274fa74766457ea703333ff5f6ca4281c2d1dd26f0c87b91b38fb4
     keywords:
@@ -140,7 +140,7 @@ entries:
   jupyter-sparkmagic:
   - apiVersion: v1
     appVersion: 4.4.0
-    created: "2020-10-05T19:54:43.631691707Z"
+    created: "2020-10-08T07:51:53.69487341Z"
     description: Jupyter Notebook with Sparkmagic kernel
     digest: 0b606a5f762ac80ae34b01bb5075a3fb1a0e409e1d112cb02943f0306f275c24
     keywords:
@@ -157,7 +157,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 4.4.0
-    created: "2020-10-05T19:54:43.631252412Z"
+    created: "2020-10-08T07:51:53.694373982Z"
     description: Jupyter Notebook with Sparkmagic kernel
     digest: 0a8f8f205bb4afd40b6b7a138504054e6147e70b21970fa6673c5d7ccab847df
     keywords:
@@ -174,7 +174,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 4.4.0
-    created: "2020-10-05T19:54:43.630794488Z"
+    created: "2020-10-08T07:51:53.693882444Z"
     description: Jupyter Notebook with Sparkmagic kernel
     digest: 1e8668db49d4e83cbd0fe0bf0f13a1f6ad041337cc9e046f2858eb0e2a13eb4f
     keywords:
@@ -191,7 +191,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 4.4.0
-    created: "2020-10-05T19:54:43.630423676Z"
+    created: "2020-10-08T07:51:53.693497658Z"
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 4a93e4961427245832250256d0452bd632a5780cf3b85d166f4fea3cbb9901f7
     keywords:
@@ -208,7 +208,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 4.4.0
-    created: "2020-10-05T19:54:43.630064233Z"
+    created: "2020-10-08T07:51:53.693131144Z"
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: be645ece75536254169c639660de6ee31c370e5080c204b7f2ead505085f2baf
     keywords:
@@ -225,7 +225,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 4.4.0
-    created: "2020-10-05T19:54:43.629693975Z"
+    created: "2020-10-08T07:51:53.692755657Z"
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 5b532a98112dadca958dbe09d4a895ed3527117ae895e9668499e70eda63b6c9
     keywords:
@@ -242,7 +242,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 4.4.0
-    created: "2020-10-05T19:54:43.629204059Z"
+    created: "2020-10-08T07:51:53.692381789Z"
     description: Jupyter Notebook with sparkmagic for Livy integration
     digest: 69a7bb4e17705950fd35e703a981e4110ca6d51d273584648bd5c5625a4e40d7
     keywords:
@@ -260,9 +260,9 @@ entries:
   livy:
   - apiVersion: v1
     appVersion: v0.8.0-incubating-SNAPSHOT
-    created: "2020-10-05T19:54:43.636880438Z"
+    created: "2020-10-08T07:51:53.700012347Z"
     description: Apache Livy server to run Spark on Kubernetes
-    digest: 281a6188e6e75197f9eba26da6d83ed391e38d72ee2543d58d40589a4075a029
+    digest: a8feabefccfa0631c84245968ebfed0e5497d22aedad80e56f4adb6a506612d2
     home: https://livy.incubator.apache.org/
     icon: https://livy.incubator.apache.org/assets/themes/apache/img/logo.png
     keywords:
@@ -282,7 +282,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating-SNAPSHOT
-    created: "2020-10-05T19:54:43.63639376Z"
+    created: "2020-10-08T07:51:53.699570328Z"
     description: Apache Livy server to run Spark on Kubernetes
     digest: bb3ae07eadcb16ff1b3bbb5d023c2fc0c74aa1c3113ee885667c42f95e0bac83
     home: https://livy.incubator.apache.org/
@@ -301,7 +301,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating-SNAPSHOT
-    created: "2020-10-05T19:54:43.635929119Z"
+    created: "2020-10-08T07:51:53.699140981Z"
     description: Apache Livy server to run Spark on Kubernetes
     digest: 36f6a470b903700dd7ee01a88ffc651b869916e5833bb32b0427cc6684658a73
     home: https://livy.incubator.apache.org/
@@ -320,7 +320,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating-SNAPSHOT
-    created: "2020-10-05T19:54:43.635439362Z"
+    created: "2020-10-08T07:51:53.698703953Z"
     description: Apache Livy server to run Spark on Kubernetes
     digest: 0f39c03785f91f49b687262e53dbd178428565e539e9ce132bad53ba535279e6
     home: https://livy.incubator.apache.org/
@@ -339,7 +339,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating-SNAPSHOT
-    created: "2020-10-05T19:54:43.634955723Z"
+    created: "2020-10-08T07:51:53.698272995Z"
     description: Apache Livy server to run Spark on Kubernetes
     digest: 0872a56e679f87f734092e4dfe0f9e4a59eff9a52712883d2e1eca4a243c538e
     home: https://livy.incubator.apache.org/
@@ -358,7 +358,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: "2020-10-05T19:54:43.634418738Z"
+    created: "2020-10-08T07:51:53.697844542Z"
     description: Apache Livy on Kubernetes
     digest: e4b035ff1ee0e1465d22f76b59feceb07f51c4b1d756b074b3dc02a25b03f103
     home: https://livy.incubator.apache.org/
@@ -377,7 +377,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: "2020-10-05T19:54:43.633985176Z"
+    created: "2020-10-08T07:51:53.697439701Z"
     description: Apache Livy on Kubernetes
     digest: 09f6a3597da03f1ff617ff5f7c84c38cd4900e0095a6d991a649f50f3dca0a50
     home: https://livy.incubator.apache.org/
@@ -396,7 +396,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: "2020-10-05T19:54:43.633509256Z"
+    created: "2020-10-08T07:51:53.697027898Z"
     description: Apache Livy on Kubernetes
     digest: f407eb5740ca6a166d4ab6841549ba982a56c0f02de9a62c80e442e1e5b97c3f
     home: https://livy.incubator.apache.org/
@@ -415,7 +415,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: "2020-10-05T19:54:43.633051471Z"
+    created: "2020-10-08T07:51:53.696610814Z"
     description: Apache Livy on Kubernetes
     digest: b4227fd2a99d43effe580e371d1ac690529d2de06d037f74c8d63fd045b949c4
     home: https://livy.incubator.apache.org/
@@ -434,7 +434,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: "2020-10-05T19:54:43.632642405Z"
+    created: "2020-10-08T07:51:53.696069247Z"
     description: Apache Livy on Kubernetes
     digest: cd17d3484d404741b623b8952ecd814cf00873e2d0a7f07570da17b437986ce2
     home: https://livy.incubator.apache.org/
@@ -453,7 +453,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: v0.7.0-incubating
-    created: "2020-10-05T19:54:43.632165285Z"
+    created: "2020-10-08T07:51:53.695406173Z"
     description: Apache Livy on Kubernetes
     digest: a16c30a1a5b74fd9275edf58e4c9df02791b4087ba717fc7e81c6b38e27dfbb3
     keywords:
@@ -469,7 +469,30 @@ entries:
   spark-cluster:
   - apiVersion: v1
     appVersion: 3.0.1
-    created: "2020-10-05T19:54:43.67732315Z"
+    created: "2020-10-08T07:51:53.745360649Z"
+    description: Spark cluster with Livy and JupyterHub on Kubernetes
+    digest: ca7439fe8cb4385b8324e89ac25922c3c255309cd736ccfd154dabc7c94d52d9
+    home: https://github.com/jahstreet/spark-on-kubernetes-helm
+    keywords:
+    - livy
+    - spark
+    - jupyterhub
+    - history-server
+    kubeVersion: 1.11.0 - 1.18.9
+    maintainers:
+    - email: jahstreetlove@gmail.com
+      name: jahstreet
+    name: spark-cluster
+    sources:
+    - https://github.com/jahstreet/spark-on-kubernetes-helm
+    - https://github.com/jahstreet/spark-on-kubernetes-docker
+    - https://github.com/apache/incubator-livy/pull/167
+    urls:
+    - spark-cluster/spark-cluster-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v1
+    appVersion: 3.0.1
+    created: "2020-10-08T07:51:53.742135055Z"
     description: Spark cluster with Livy and JupyterHub on Kubernetes
     digest: e13ace0a003a83caf994579c1b1b44971b5f5e2f2ae6a391a8a609f9f0909e76
     home: https://github.com/jahstreet/spark-on-kubernetes-helm
@@ -492,7 +515,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 2.4.5
-    created: "2020-10-05T19:54:43.673633065Z"
+    created: "2020-10-08T07:51:53.738820135Z"
     description: Spark cluster with Livy and JupyterHub atop Kubernetes
     digest: 46f5f3d640dbcb8a19f0c754bd570c2f96a43dfdffba75ee5f3ed5f1470d87c3
     keywords:
@@ -509,7 +532,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 2.4.5
-    created: "2020-10-05T19:54:43.670118541Z"
+    created: "2020-10-08T07:51:53.735650467Z"
     description: Spark cluster with Livy and JupyterHub atop Kubernetes
     digest: 0058477dd47c5fe6a69ad41c142ccae3d1cbc4ebec3774bbe78a4585c19ba4a9
     keywords:
@@ -526,7 +549,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 2.4.5
-    created: "2020-10-05T19:54:43.666509781Z"
+    created: "2020-10-08T07:51:53.730729054Z"
     description: Spark cluster with Livy and JupyterHub atop Kubernetes
     digest: 11fe4a5cf0f903d7a63315e5d29b39310130f49bda30906e993a9027cc7e46bc
     keywords:
@@ -543,7 +566,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: 2.4.3
-    created: "2020-10-05T19:54:43.661262387Z"
+    created: "2020-10-08T07:51:53.726853192Z"
     description: Spark cluster with Livy and JupyterHub atop Kubernetes
     digest: 95c0fe4206995d6bc80fe10c3344d3ed28d81f1e8c74f64cf6ffcef9f97445c7
     keywords:
@@ -560,7 +583,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: 2.4.3
-    created: "2020-10-05T19:54:43.657027552Z"
+    created: "2020-10-08T07:51:53.722746503Z"
     description: Spark cluster with Livy and JupyterHub atop Kubernetes
     digest: 7dfc4eaefadec4da7b41dda23c0e5690066c181dd08eb790b7cafa842bf68566
     keywords:
@@ -577,7 +600,7 @@ entries:
     version: 0.5.1
   - apiVersion: v1
     appVersion: 2.4.3
-    created: "2020-10-05T19:54:43.652759507Z"
+    created: "2020-10-08T07:51:53.718102234Z"
     description: Spark cluster with Livy and JupyterHub atop Kubernetes
     digest: 367fec57152a5918a279fe3909c970d82b2ab37cdd102335494a341f31f75e01
     keywords:
@@ -594,7 +617,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 2.4.2
-    created: "2020-10-05T19:54:43.648493447Z"
+    created: "2020-10-08T07:51:53.714243077Z"
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: e773bfabc4b7c85205a380e23902d27149287594a250b127559107fb3c42269d
     keywords:
@@ -612,7 +635,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 2.4.2
-    created: "2020-10-05T19:54:43.644785968Z"
+    created: "2020-10-08T07:51:53.709318128Z"
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: f9af08dffcb5c79a380548f0958d83b9d32fa4523d94da4ba04433ca2cebc8fb
     keywords:
@@ -629,7 +652,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 2.4.2
-    created: "2020-10-05T19:54:43.64305844Z"
+    created: "2020-10-08T07:51:53.706667346Z"
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: c16b707a7c03468dc176ed40be142bc8706adef2dfa9219edef0cb4f7f507cbc
     keywords:
@@ -646,7 +669,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 2.4.1
-    created: "2020-10-05T19:54:43.641282566Z"
+    created: "2020-10-08T07:51:53.703588823Z"
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: 6a5a78930c7c60868177637f1e34cad354c1ddb1e96b6ccd3749ec73a32e69e2
     keywords:
@@ -663,7 +686,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 2.4.1
-    created: "2020-10-05T19:54:43.639600038Z"
+    created: "2020-10-08T07:51:53.701722308Z"
     description: A Helm chart for Spark cluster with Livy atop Kubernetes
     digest: b9af42276e354dad025d12688bea1a34ab1bfc35cfa01b5453658845d84c2c03
     keywords:
@@ -681,10 +704,10 @@ entries:
   spark-monitoring:
   - apiVersion: v1
     appVersion: 0.38.1
-    created: "2020-10-05T19:54:43.757484123Z"
+    created: "2020-10-08T07:51:53.815429228Z"
     description: Cluster monitoring chart with Prometheus Operator, Prometheus Pushgateway
       and Loki
-    digest: 6b1fd9078c1e780597c1cfba0c96df703106a318797b15f8e14ab636c936001a
+    digest: 406021de10c843836727dc0b59a515ddb0d4be8f66e0f54f53187f23ce39cc60
     keywords:
     - monitoring
     - prometheus-operator
@@ -702,7 +725,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: 0.29.0
-    created: "2020-10-05T19:54:43.733769206Z"
+    created: "2020-10-08T07:51:53.79605646Z"
     description: Cluster monitoring chart with Prometheus Operator and Prometheus
       Pushgateway
     digest: e7d13ad1a5767c20bac6ac9e36cc8f0746e35d98095092c16f6dfddd7cbb5097
@@ -723,7 +746,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 0.29.0
-    created: "2020-10-05T19:54:43.713284248Z"
+    created: "2020-10-08T07:51:53.776372447Z"
     description: Cluster monitoring chart with Prometheus Operator and Prometheus
       Pushgateway
     digest: 8d1c19630aee8047379ad55179f08cddc0cf1361442f2a4f97495a36d5290a0c
@@ -744,7 +767,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.29.0
-    created: "2020-10-05T19:54:43.699915579Z"
+    created: "2020-10-08T07:51:53.764712509Z"
     description: Cluster monitoring chart with Prometheus Operator and Prometheus
       Pushgateway
     digest: 48c38840a71afdebac514c5bd76672cbebfc21c1c067fd1b7b73f3402c39e36d
@@ -765,7 +788,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.29.0
-    created: "2020-10-05T19:54:43.687619681Z"
+    created: "2020-10-08T07:51:53.754423315Z"
     description: Cluster monitoring chart with Prometheus Operator and Prometheus
       Pushgateway
     digest: 9a3bc018a7646a05a518a3cb438d326abc5a484f1f9b2ff133c29208403a487a
@@ -784,4 +807,4 @@ entries:
     urls:
     - spark-monitoring/spark-monitoring-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-05T19:54:43.601872828Z"
+generated: "2020-10-08T07:51:53.669057807Z"
